@@ -1,0 +1,97 @@
+.sign-background {
+    height: 120vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-background .sign-container {
+    width: 45%;
+    border-radius: 5%;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.sign-background .sign-container h3 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.sign-background .sign-container input {
+    width: 100%;
+    margin-top: 3%;
+    padding: 1% 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+.sign-background .sign-container a {
+    text-decoration: none;
+    color: rgb(66, 66, 247);
+}
+
+.sign-background .sign-container .error {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    color: red;
+}
+
+.sign-background .sign-container button {
+    width: 100%;
+    padding: 1%;
+    margin: 3% 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: rgb(66, 66, 247);
+    color: white;
+}
+
+.sign-background .sign-container button:hover {
+    background-color: rgba(9, 9, 90, 0.993);
+    opacity: 0.8;
+}
+
+.sign-background .sign-container p {
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .sign-background .sign-container {
+        width: 55%;
+    }
+
+    .sign-background .sign-container button {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .sign-background .sign-container {
+        width: 90%;
+    }
+
+    .sign-background .sign-container h3 {
+        font-size: 38px;
+    }
+
+    .sign-background .sign-container input {
+        padding: 2% 0;
+    }
+
+    .sign-background .sign-container button {
+        width: 60%;
+        margin-left: 20%;
+        font-size: 20px;
+    }
+
+}

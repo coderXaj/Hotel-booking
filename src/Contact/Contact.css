@@ -1,0 +1,110 @@
+.con-maincontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 2%;
+}
+
+.con-maincontainer .con-container1 {
+    padding: 0 2%;
+}
+
+.con-maincontainer .con-container1 h3 {
+    padding: 5% 0;
+    font-size: 50px;
+}
+
+.con-maincontainer .con-container1 p {
+    color: grey;
+}
+
+.con-maincontainer .con-container2 {
+    width: 55%;
+    height: auto;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-maincontainer .con-container2 .con-inputspan1 {
+    font-size: 25px;
+    color: grey;
+}
+
+.con-maincontainer .con-container2 .con-inputtext {
+    width: 100%;
+    margin: 4% 0;
+    padding: 1% 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+}
+
+.con-maincontainer .con-container2 .con-labelradio {
+    padding-right: 10%;
+    margin-top: 2%;
+}
+
+.con-maincontainer .con-container2 .con-submit {
+    width: 100%;
+    padding: 1%;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    background-color: rgb(66, 66, 247);
+    color: white;
+}
+
+.con-maincontainer .con-container2 .con-submit:hover {
+    background-color: rgba(9, 9, 90, 0.993);
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1210px) {
+    .con-maincontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1% 2%;
+    }
+
+    .con-maincontainer .con-container1 {
+        text-align: center;
+    }
+
+    .con-maincontainer .con-container2 {
+        width: 70%;
+    }
+
+    .con-maincontainer .con-container1 p {
+        padding-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .con-maincontainer .con-container2 {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .con-maincontainer .con-container2 {
+        width: 100%;
+    }
+
+    .con-maincontainer .con-container2 .con-submit {
+        width: 35%;
+        padding: 1%;
+        border-radius: 40px;
+        margin-left: 30%;
+        border: none;
+        font-size: 20px;
+        background-color: rgb(66, 66, 247);
+        color: white;
+    }
+
+}

@@ -1,0 +1,10 @@
+.footer {
+    color: black;
+    padding: 2px 0;
+    text-align: center;
+    background-color: grey;
+}
+
+.footer h4 .logo {
+    margin-right: 1%;
+}
